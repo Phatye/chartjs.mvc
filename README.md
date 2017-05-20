@@ -2,12 +2,13 @@
 .Net MVC wrapper for Chart.Js V 2 charting library
 
 # Usage
-h2. Sample Usage
+# Sample Usage
 
-h3. Create data in C# file
+# Create data in C# file
 
 //set Y-Axis values
 var yAxis = new List<double> { 1, 5, 6, 3, 6 };
+
 //set X-Axis values
 var xAxis = new List<string> { "One", "Five", "Six", "Three", "Six" };
 
@@ -48,12 +49,14 @@ var chart = new Chart
 //pass the chart to the view
 return View("ChartDisplay", chart);
 
-h3. Displaying chart in View
+# Displaying chart in View
+
 //import ChartJs.Mvc
 @using ChartJs.Mvc.Extensions;
 
 //display the chart in a div
 //you need to create a canvas with an id and use the id when creating the chart
+
 <div class="row text-center">
     <div class="row panel panel-chart">
         <canvas class="text-center" id="SampleChart" height="500" width="500"></canvas>
@@ -61,7 +64,7 @@ h3. Displaying chart in View
     </div>
 </div>
 
-h2. Option Property
+# Option Property
 
 Title - set tiltle of the chart.
 Responsive - sets if the chart should be responsive to the view.
