@@ -16,9 +16,11 @@ doughnut
 # Create data in C# file
 
 //set Y-Axis values
+
 var yAxis = new List<double> { 1, 5, 6, 3, 6 };
 
 //set X-Axis values
+
 var xAxis = new List<string> { "One", "Five", "Six", "Three", "Six" };
 
 //create a dataset for the y-axis value
