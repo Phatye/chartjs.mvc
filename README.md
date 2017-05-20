@@ -1,7 +1,16 @@
 # chartjs.mvc
 .Net MVC wrapper for Chart.Js V 2 charting library
 
-# Usage
+# Supported Charts
+
+line,
+bar,
+horizontal bar,
+radar,
+polar area,
+pie,
+doughnut
+
 # Sample Usage
 
 # Create data in C# file
