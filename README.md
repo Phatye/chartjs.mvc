@@ -7,14 +7,13 @@
 # Create data in C# file
 
 //set Y-Axis values
-
 var yAxis = new List<double> { 1, 5, 6, 3, 6 };
 
 //set X-Axis values
-
 var xAxis = new List<string> { "One", "Five", "Six", "Three", "Six" };
 
 //create a dataset for the y-axis value
+
 
 var dataset = new DataSet
             {
@@ -95,7 +94,7 @@ Legend - where and if the legend should show.
 Scales - scaling for the Y-Axis
 
 
-h4. Sample Option property for combination chart with two different y-axis vlues
+# Sample Option property for combination chart with two different y-axis vlues
 
 internal static OptionProperty ChartJsDualYOptions(string text = "", string axes1Id = "y1", string axes2Id = "y2")
 
